@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>何处惹尘埃</title>
+  <title>LTYALW</title>
   
-  <subtitle>20201027</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>你也来看花花吗</subtitle>
+  <link href="http://www.better2020.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2020-10-29T09:19:28.511Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://www.better2020.top/"/>
+  <updated>2020-10-29T09:39:16.384Z</updated>
+  <id>http://www.better2020.top/</id>
   
   <author>
     <name>憨憨一个</name>
@@ -17,9 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>what</title>
+    <link href="http://www.better2020.top/2020/10/29/what/"/>
+    <id>http://www.better2020.top/2020/10/29/what/</id>
+    <published>2020-10-29T09:38:47.000Z</published>
+    <updated>2020-10-29T09:39:16.384Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Git与Github安装使用教程</title>
-    <link href="http://example.com/2020/10/28/git%E4%BD%BF%E7%94%A8/"/>
-    <id>http://example.com/2020/10/28/git%E4%BD%BF%E7%94%A8/</id>
+    <link href="http://www.better2020.top/2020/10/28/git%E4%BD%BF%E7%94%A8/"/>
+    <id>http://www.better2020.top/2020/10/28/git%E4%BD%BF%E7%94%A8/</id>
     <published>2020-10-28T02:23:30.000Z</published>
     <updated>2020-10-29T09:19:28.511Z</updated>
     
@@ -30,17 +50,17 @@
     
     
     
-    <category term="code" scheme="http://example.com/categories/code/"/>
+    <category term="code" scheme="http://www.better2020.top/categories/code/"/>
     
     
-    <category term="Git" scheme="http://example.com/tags/Git/"/>
+    <category term="Git" scheme="http://www.better2020.top/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>记录从零搭建Vue-cli</title>
-    <link href="http://example.com/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    <id>http://example.com/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <link href="http://www.better2020.top/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://www.better2020.top/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
     <published>2020-10-28T02:23:30.000Z</published>
     <updated>2020-10-29T09:19:26.333Z</updated>
     
@@ -51,10 +71,10 @@
     
     
     
-    <category term="code" scheme="http://example.com/categories/code/"/>
+    <category term="code" scheme="http://www.better2020.top/categories/code/"/>
     
     
-    <category term="vue" scheme="http://example.com/tags/vue/"/>
+    <category term="vue" scheme="http://www.better2020.top/tags/vue/"/>
     
   </entry>
   
