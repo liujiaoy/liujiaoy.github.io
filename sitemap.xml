@@ -2,56 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://www.better2020.top/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     
-    <lastmod>2020-10-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/2020/10/28/git%E4%BD%BF%E7%94%A8/</loc>
-    
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>http://www.better2020.top/2020/10/28/git%E4%BD%BF%E7%94%A8/</loc>
     
-    <lastmod>2020-10-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://www.better2020.top/tags/index.html</loc>
     
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/2020/10/27/hello-world/</loc>
+    <loc>http://www.better2020.top/categories/index.html</loc>
     
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/artitalk/index.html</loc>
+    
+    <lastmod>2020-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/about/index.html</loc>
+    
+    <lastmod>2020-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/link/index.html</loc>
+    
+    <lastmod>2020-10-29</lastmod>
     
   </url>
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2020-10-28</lastmod>
+    <loc>http://www.better2020.top/</loc>
+    <lastmod>2020-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>http://www.better2020.top/tags/Git/</loc>
+    <lastmod>2020-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/tags/vue/</loc>
+    <lastmod>2020-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://www.better2020.top/categories/code/</loc>
+    <lastmod>2020-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
