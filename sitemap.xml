@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.better2020.top/2020/10/29/what/</loc>
+    <loc>http://www.better2020.top/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
     
-    <lastmod>2020-10-29</lastmod>
+    <lastmod>2020-11-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/2020/10/29/VSCode%E4%B8%8EMarkDown/</loc>
+    
+    <lastmod>2020-10-30</lastmod>
     
   </url>
   
@@ -53,22 +60,43 @@
 
   <url>
     <loc>http://www.better2020.top/</loc>
-    <lastmod>2020-10-30</lastmod>
+    <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://www.better2020.top/tags/VSCode/</loc>
+    <lastmod>2020-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/tags/MarkDown/</loc>
+    <lastmod>2020-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.better2020.top/tags/Git/</loc>
-    <lastmod>2020-10-30</lastmod>
+    <lastmod>2020-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.better2020.top/tags/Hexo/</loc>
+    <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.better2020.top/tags/vue/</loc>
-    <lastmod>2020-10-30</lastmod>
+    <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -77,7 +105,7 @@
   
   <url>
     <loc>http://www.better2020.top/categories/code/</loc>
-    <lastmod>2020-10-30</lastmod>
+    <lastmod>2020-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

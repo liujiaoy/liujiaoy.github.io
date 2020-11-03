@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LTYALW</title>
+  <title>LJYALW</title>
   
-  <subtitle>你也来看花花吗</subtitle>
+  <subtitle>我思,故我在</subtitle>
   <link href="http://www.better2020.top/atom.xml" rel="self"/>
   
   <link href="http://www.better2020.top/"/>
-  <updated>2020-10-29T09:39:16.384Z</updated>
+  <updated>2020-11-03T06:33:40.009Z</updated>
   <id>http://www.better2020.top/</id>
   
   <author>
@@ -17,22 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>what</title>
-    <link href="http://www.better2020.top/2020/10/29/what/"/>
-    <id>http://www.better2020.top/2020/10/29/what/</id>
+    <title>hexo安装以及常用指令</title>
+    <link href="http://www.better2020.top/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
+    <id>http://www.better2020.top/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</id>
+    <published>2020-11-03T05:57:23.000Z</published>
+    <updated>2020-11-03T06:33:40.009Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><h2 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h2><h3 id="1-新建指令"><a href="#1-新建指令" class="headerlink" title="1.新建指令"></a>1.新建指令</h3><p>新建文章</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;title&quot; &#x2F;&#x2F;title为文章的标签</span><br><span class="line">&#x2F;&#x2F;等价于</span><br><span class="line">hexo new post &quot;title&quot;</span><br></pre></td></tr></table></figure><p>新建草稿</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new  draft &quot;xxx&quot;</span><br></pre></td></tr></table></figure><p>新建文件夹</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;xxx&quot;</span><br></pre></td></tr></table></figure><h3 id="2-开启本地服务器"><a href="#2-开启本地服务器" class="headerlink" title="2.开启本地服务器"></a>2.开启本地服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br><span class="line">&#x2F;&#x2F;等价于</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><h3 id="3-清除与生成public文件"><a href="#3-清除与生成public文件" class="headerlink" title="3.清除与生成public文件"></a>3.清除与生成public文件</h3><p>一般在修改了配置文件的时候需要执行hexo clean hexo g 再hexo s开启服务</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &#x2F;&#x2F;清除缓存</span><br><span class="line"></span><br><span class="line">hexo g &#x2F;&#x2F;生成文件</span><br></pre></td></tr></table></figure><h3 id="4-部署文件"><a href="#4-部署文件" class="headerlink" title="4.部署文件"></a>4.部署文件</h3><p>将本地数据部署到远端服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">hexo d</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Hexo-安装&quot;&gt;&lt;a href=&quot;#Hexo-安装&quot; class=&quot;headerlink&quot; title=&quot;Hexo 安装&quot;&gt;&lt;/a&gt;Hexo 安装&lt;/h2&gt;&lt;h2 id=&quot;常用指令&quot;&gt;&lt;a href=&quot;#常用指令&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="code" scheme="http://www.better2020.top/categories/code/"/>
+    
+    
+    <category term="Hexo" scheme="http://www.better2020.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode 和 MarkDown</title>
+    <link href="http://www.better2020.top/2020/10/29/VSCode%E4%B8%8EMarkDown/"/>
+    <id>http://www.better2020.top/2020/10/29/VSCode%E4%B8%8EMarkDown/</id>
     <published>2020-10-29T09:38:47.000Z</published>
-    <updated>2020-10-29T09:39:16.384Z</updated>
+    <updated>2020-10-30T01:01:09.536Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="记录下载VScode"><a href="#记录下载VScode" class="headerlink" title="记录下载VScode"></a>记录下载VScode</h2><p>有以下几个需要注意的点</p><h3 id="1-VSCode-与visual-Studio是不同的，开始一直把Visual-Studio当成VSCode"><a href="#1-VSCode-与visual-Studio是不同的，开始一直把Visual-Studio当成VSCode" class="headerlink" title="1. VSCode 与visual Studio是不同的，开始一直把Visual Studio当成VSCode"></a>1. VSCode 与visual Studio是不同的，开始一直把Visual Studio当成VSCode</h3><p>VSCode其实就是一个文本编辑器，跟nodepad++，sublime性质一致，Visual Studio是IDE，功能强大但也臃肿，适合后台。</p><h3 id="2-快捷键这种东西，看的多没什么用，挑几个常用的、必用的多用用"><a href="#2-快捷键这种东西，看的多没什么用，挑几个常用的、必用的多用用" class="headerlink" title="2. 快捷键这种东西，看的多没什么用，挑几个常用的、必用的多用用"></a>2. 快捷键这种东西，看的多没什么用，挑几个常用的、必用的多用用</h3><p>ctrl+shift+p打开搜索配置很重要。暂时我只记得这一个</p><h3 id="3-今天学习使用了一个插件-Setting-Sync-顾名思义就是把设置同步，目的在于多个电脑可以共用一个配置文件，尤其是公司和家里的电脑，还有换了电脑的时候很实用"><a href="#3-今天学习使用了一个插件-Setting-Sync-顾名思义就是把设置同步，目的在于多个电脑可以共用一个配置文件，尤其是公司和家里的电脑，还有换了电脑的时候很实用" class="headerlink" title="3. 今天学习使用了一个插件 Setting Sync,顾名思义就是把设置同步，目的在于多个电脑可以共用一个配置文件，尤其是公司和家里的电脑，还有换了电脑的时候很实用"></a>3. 今天学习使用了一个插件 Setting Sync,顾名思义就是把设置同步，目的在于多个电脑可以共用一个配置文件，尤其是公司和家里的电脑，还有换了电脑的时候很实用</h3><p>这个插件配置起来还挺麻烦的<br>1） VSCode，找到插件 Setting Sync下载<br>2） 登录github生成token，记录id<br>3） 回到Setting Sync设置，忘了请查博客<br>记住两个快捷键  shift+alt+U 上传配置文件 shift+alt+D 下载</p><hr><!-- 水平线 --><h2 id="学习使用markdown"><a href="#学习使用markdown" class="headerlink" title="学习使用markdown"></a>学习使用markdown</h2><hr><!-- 水平线 --><h3 id="文字效果"><a href="#文字效果" class="headerlink" title="文字效果"></a>文字效果</h3><pre><code>*斜体*_斜体_**粗体**__粗体__***粗斜体***___粗斜体___~~嘿嘿嘿~~&lt;u&gt;哇呜&lt;/u&gt;&lt;center&gt;我居中&lt;/center&gt;</code></pre><p>对应效果<br><em>斜体</em><br><em>斜体</em><br><strong>粗体</strong><br><strong>粗体</strong><br>**<em>粗斜体**</em><br><strong><em>粗斜体</em></strong><br><del>嘿嘿嘿</del><br><u>哇呜</u></p><center>我居中</center><hr><hr><!-- 水平线 --><h3 id="列表样式"><a href="#列表样式" class="headerlink" title="列表样式"></a>列表样式</h3><pre><code>* 学习列表* 嘿嘿嘿- 换个方式- 我的天呀1. 列表嵌套    * 我是子列表    * 巧了我也是        - 我也        - 子子列表&gt; 区块引用&gt; 有什么用呢&gt;&gt; 我可以嵌套&gt;&gt;&gt;厉害吧</code></pre><ul><li>学习列表</li><li>嘿嘿嘿</li></ul><ul><li>换个方式</li><li>我的天呀</li></ul><ol><li>列表嵌套<ul><li>我是子列表</li><li>巧了我也是<ul><li>我也</li><li>子子列表<blockquote><p>区块引用<br>有什么用呢</p><blockquote><p>我可以嵌套</p><blockquote><p>厉害吧</p></blockquote></blockquote></blockquote></li></ul></li></ul></li></ol><h3 id="代码与引用"><a href="#代码与引用" class="headerlink" title="代码与引用"></a>代码与引用</h3><pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 代码，还是这个比较好用</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getUrlParam</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">&quot;(^|&amp;)&quot;</span> + name + <span class="string">&quot;=([^&amp;]*)(&amp;|$)&quot;</span>); <span class="comment">//构造一个含有目标参数的正则表达式对象</span></span><br><span class="line">        <span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);  <span class="comment">//匹配目标参数</span></span><br><span class="line">        <span class="keyword">if</span> (r != <span class="literal">null</span>) <span class="keyword">return</span> <span class="built_in">unescape</span>(r[<span class="number">2</span>]); <span class="keyword">return</span> <span class="literal">null</span>; <span class="comment">//返回参数值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></code></pre><p>效果如下</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 代码，还是这个比较好用</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getUrlParam</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">&quot;(^|&amp;)&quot;</span> + name + <span class="string">&quot;=([^&amp;]*)(&amp;|$)&quot;</span>); <span class="comment">//构造一个含有目标参数的正则表达式对象</span></span><br><span class="line">        <span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);  <span class="comment">//匹配目标参数</span></span><br><span class="line">        <span class="keyword">if</span> (r != <span class="literal">null</span>) <span class="keyword">return</span> <span class="built_in">unescape</span>(r[<span class="number">2</span>]); <span class="keyword">return</span> <span class="literal">null</span>; <span class="comment">//返回参数值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><pre><code>    function getUrlParam(name) &#123;            var reg = new RegExp(&quot;(^|&amp;)&quot; + name + &quot;=([^&amp;]*)(&amp;|$)&quot;); //构造一个含有目标参数的正则表达式对象            var r = window.location.search.substr(1).match(reg);  //匹配目标参数            if (r != null) return unescape(r[2]); return null; //返回参数值    &#125;</code></pre><h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>来学习表格<br>    |表头1|表头2|表头3|<br>    |-:|:-|:-:|<br>    |1 |2 |3  |<br>    |1 |2 |3  |<br>    |1 |2 |3  |<br>    |1 |2 |3  |<br>|表头1|表头2|表头3|<br>|-:|:-|:-:|<br>|1 |2 |3  |<br>|1 |2 |3  |<br>|1 |2 |3  |<br>|1 |2 |3  |</p><p>-: 设置内容和标题栏居右对齐。<br>:- 设置内容和标题栏居左对齐。<br>:-: 设置内容和标题栏居中对齐。</p><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><pre><code>[我的博客](www.better2020.top)&lt;http://www.better2020.top&gt;</code></pre><p><a href="www.better2020.top">我的博客</a><br><a href="http://www.better2020.top/">http://www.better2020.top</a></p><img src="http://static.runoob.com/images/runoob-logo.png" width="50%"><p><img src="http://static.runoob.com/images/runoob-logo.png" alt="百度一下，你就知道"></p><pre><code>目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等 ，如：</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;记录下载VScode&quot;&gt;&lt;a href=&quot;#记录下载VScode&quot; class=&quot;headerlink&quot; title=&quot;记录下载VScode&quot;&gt;&lt;/a&gt;记录下载VScode&lt;/h2&gt;&lt;p&gt;有以下几个需要注意的点&lt;/p&gt;
+&lt;h3 id=&quot;1-VSCode-与visu</summary>
       
     
     
     
+    <category term="code" scheme="http://www.better2020.top/categories/code/"/>
+    
+    
+    <category term="VSCode" scheme="http://www.better2020.top/tags/VSCode/"/>
+    
+    <category term="MarkDown" scheme="http://www.better2020.top/tags/MarkDown/"/>
     
   </entry>
   
