@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.better2020.top/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <loc>http://liujiaoy.github.io/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/2020/10/29/VSCode%E4%B8%8EMarkDown/</loc>
+    <loc>http://liujiaoy.github.io/2020/10/29/VSCode%E4%B8%8EMarkDown/</loc>
     
     <lastmod>2020-10-30</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/2020/10/28/git%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://liujiaoy.github.io/2020/10/28/git%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://liujiaoy.github.io/2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/tags/index.html</loc>
+    <loc>http://liujiaoy.github.io/tags/index.html</loc>
     
     <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/categories/index.html</loc>
+    <loc>http://liujiaoy.github.io/categories/index.html</loc>
     
     <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/artitalk/index.html</loc>
+    <loc>http://liujiaoy.github.io/artitalk/index.html</loc>
     
     <lastmod>2020-10-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.better2020.top/about/index.html</loc>
+    <loc>http://liujiaoy.github.io/about/index.html</loc>
     
     <lastmod>2020-10-29</lastmod>
     
@@ -59,7 +59,7 @@
   
 
   <url>
-    <loc>http://www.better2020.top/</loc>
+    <loc>http://liujiaoy.github.io/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -67,35 +67,35 @@
 
   
   <url>
-    <loc>http://www.better2020.top/tags/VSCode/</loc>
+    <loc>http://liujiaoy.github.io/tags/VSCode/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.better2020.top/tags/MarkDown/</loc>
+    <loc>http://liujiaoy.github.io/tags/MarkDown/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.better2020.top/tags/Git/</loc>
+    <loc>http://liujiaoy.github.io/tags/Git/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.better2020.top/tags/vue/</loc>
+    <loc>http://liujiaoy.github.io/tags/Hexo/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.better2020.top/tags/Hexo/</loc>
+    <loc>http://liujiaoy.github.io/tags/vue/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -104,7 +104,7 @@
 
   
   <url>
-    <loc>http://www.better2020.top/categories/code/</loc>
+    <loc>http://liujiaoy.github.io/categories/code/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
