@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liujiaoy.github.io/2021/03/31/vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E7%94%A8iconfont/</loc>
+    
+    <lastmod>2021-03-31</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://liujiaoy.github.io/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
     
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liujiaoy.github.io/2020/12/11/%E5%B8%B8%E7%94%A8js%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2020-12-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://liujiaoy.github.io/2020/11/20/%E5%9B%BA%E5%AE%9A%E8%A1%A8%E5%A4%B4%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2020-12-11</lastmod>
     
   </url>
   
@@ -60,7 +81,7 @@
 
   <url>
     <loc>http://liujiaoy.github.io/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,35 +89,42 @@
   
   <url>
     <loc>http://liujiaoy.github.io/tags/VSCode/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://liujiaoy.github.io/tags/MarkDown/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://liujiaoy.github.io/tags/Git/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://liujiaoy.github.io/tags/Hexo/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://liujiaoy.github.io/tags/vue/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://liujiaoy.github.io/tags/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,7 +133,7 @@
   
   <url>
     <loc>http://liujiaoy.github.io/categories/code/</loc>
-    <lastmod>2020-11-04</lastmod>
+    <lastmod>2021-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
