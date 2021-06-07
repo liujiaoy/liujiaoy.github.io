@@ -6,7 +6,7 @@
   <link href="http://liujiaoy.github.io/atom.xml" rel="self"/>
   
   <link href="http://liujiaoy.github.io/"/>
-  <updated>2021-06-07T00:14:49.630Z</updated>
+  <updated>2021-06-07T03:02:37.730Z</updated>
   <id>http://liujiaoy.github.io/</id>
   
   <author>
@@ -21,11 +21,22 @@
     <link href="http://liujiaoy.github.io/2021/06/07/hexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E6%8F%90%E4%BA%A4%E8%87%B3github/"/>
     <id>http://liujiaoy.github.io/2021/06/07/hexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E6%8F%90%E4%BA%A4%E8%87%B3github/</id>
     <published>2021-06-07T00:14:49.000Z</published>
-    <updated>2021-06-07T00:14:49.630Z</updated>
+    <updated>2021-06-07T03:02:37.730Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>兴致勃勃打开家里电脑写博客，从github把博客文件下载下来整了半天发现没用，原来是之前配置的hexo deploy 只会把博客内容上传到github，源码并没有上传。原来如此！</p><h2 id="博客源码提交到博客仓库的另一个分支进行管理"><a href="#博客源码提交到博客仓库的另一个分支进行管理" class="headerlink" title="博客源码提交到博客仓库的另一个分支进行管理"></a>博客源码提交到博客仓库的另一个分支进行管理</h2><p>博客设置成了github Page，源码经过查阅资料选择了用当前仓库的hexo分支进行保存管理，以后hexo分支为源码，master分支为hexo d生成的文件。</p><h3 id="git-checkout"><a href="#git-checkout" class="headerlink" title="git checkout"></a>git checkout</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;兴致勃勃打开家里电脑写博客，从github把博客文件下载下来整了半天发现没用，原来是之前配置的hexo deploy 只会把博客内容上传到g</summary>
+      
     
     
     
+    <category term="code" scheme="http://liujiaoy.github.io/categories/code/"/>
     
+    
+    <category term="Hexo" scheme="http://liujiaoy.github.io/tags/Hexo/"/>
     
   </entry>
   
