@@ -194,31 +194,6 @@
     
     
     <entry>
-      <title>记录从零搭建Vue-cli</title>
-      <link href="2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-      <url>2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li>vue官方文档、百度</li></ul><h2 id="安装node-js（包含npm）"><a href="#安装node-js（包含npm）" class="headerlink" title="安装node.js（包含npm）"></a>安装node.js（包含npm）</h2><p>node是vue-cli的运行环境，并且nodejs中包括了npm<br><a href="http://nodejs.cn/download/">下载安装包</a> 这里下载比官网快多了<br>傻瓜式安装，这里因为c盘空间不是很大，所以放在了D盘，安装包挺小的，安装的过程却是漫长的</p><p>判断是否安装成功<br>win+R cmd 之后输入以下指令，出现相应版本号即为成功</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><p>顺势而生的问题</p><h3 id="npm下载东西慢怎么办"><a href="#npm下载东西慢怎么办" class="headerlink" title="npm下载东西慢怎么办"></a>npm下载东西慢怎么办</h3><p>get命令查看registry,</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure><p>原版镜像为：<a href="http://registry.npmjs.org/">http://registry.npmjs.org</a></p><p>使用set命令将镜像改为淘宝镜像</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry http://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h2 id="安装vue-cli"><a href="#安装vue-cli" class="headerlink" title="安装vue/cli"></a>安装vue/cli</h2><p>1.找到vue官网，生态系统-&gt;VUE Cli<br>2.使用npm命令安装</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g @vue/cli</span><br></pre></td></tr></table></figure><p>3.判断是否安装成功</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue -V</span><br></pre></td></tr></table></figure><p>4.创建一个项目</p><blockquote><p>vue create my-project<br>或者<br>vue ui</p></blockquote><p>然后选择默认配置或手动配置，一个项目就这样被初始化好了<br>手动配置的话建议到网上找找别人怎么配<br>这里我基本上和<a href="https://www.cnblogs.com/peter1/p/12149210.html">这个博客</a> 一致</p><p>5.运行项目<br>1）运行自己创建的vue项目</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run serve</span><br></pre></td></tr></table></figure><p>创建好的项目里面readme.md有写</p><p>2)下载运行其他人的项目</p><blockquote><p>git clone 别人的项目地址</p></blockquote><p>进入到相应的项目再npm install（重要）安装依赖</p><blockquote><p>npm install</p></blockquote><p>运行</p><blockquote><p>npm run start<br>或者<br>npm run dev</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> code </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Git与Github安装使用教程</title>
       <link href="2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/"/>
       <url>2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/</url>
@@ -236,6 +211,31 @@
         <tags>
             
             <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录从零搭建Vue-cli</title>
+      <link href="2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <url>2020/10/28/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li>vue官方文档、百度</li></ul><h2 id="安装node-js（包含npm）"><a href="#安装node-js（包含npm）" class="headerlink" title="安装node.js（包含npm）"></a>安装node.js（包含npm）</h2><p>node是vue-cli的运行环境，并且nodejs中包括了npm<br><a href="http://nodejs.cn/download/">下载安装包</a> 这里下载比官网快多了<br>傻瓜式安装，这里因为c盘空间不是很大，所以放在了D盘，安装包挺小的，安装的过程却是漫长的</p><p>判断是否安装成功<br>win+R cmd 之后输入以下指令，出现相应版本号即为成功</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><p>顺势而生的问题</p><h3 id="npm下载东西慢怎么办"><a href="#npm下载东西慢怎么办" class="headerlink" title="npm下载东西慢怎么办"></a>npm下载东西慢怎么办</h3><p>get命令查看registry,</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure><p>原版镜像为：<a href="http://registry.npmjs.org/">http://registry.npmjs.org</a></p><p>使用set命令将镜像改为淘宝镜像</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry http://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h2 id="安装vue-cli"><a href="#安装vue-cli" class="headerlink" title="安装vue/cli"></a>安装vue/cli</h2><p>1.找到vue官网，生态系统-&gt;VUE Cli<br>2.使用npm命令安装</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g @vue/cli</span><br></pre></td></tr></table></figure><p>3.判断是否安装成功</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue -V</span><br></pre></td></tr></table></figure><p>4.创建一个项目</p><blockquote><p>vue create my-project<br>或者<br>vue ui</p></blockquote><p>然后选择默认配置或手动配置，一个项目就这样被初始化好了<br>手动配置的话建议到网上找找别人怎么配<br>这里我基本上和<a href="https://www.cnblogs.com/peter1/p/12149210.html">这个博客</a> 一致</p><p>5.运行项目<br>1）运行自己创建的vue项目</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run serve</span><br></pre></td></tr></table></figure><p>创建好的项目里面readme.md有写</p><p>2)下载运行其他人的项目</p><blockquote><p>git clone 别人的项目地址</p></blockquote><p>进入到相应的项目再npm install（重要）安装依赖</p><blockquote><p>npm install</p></blockquote><p>运行</p><blockquote><p>npm run start<br>或者<br>npm run dev</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> code </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
             
         </tags>
       
