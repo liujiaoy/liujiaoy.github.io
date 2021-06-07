@@ -38,7 +38,7 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
 
-### 使用
+### 使用/常用命令
 
 #### 初始化
 
@@ -54,6 +54,12 @@ git init
 ``` git
 git add <文件名>（git add . 添加目录中的所有文件）
 git commit -m "添加说明内容"
+```
+
+通常下一步就是提交到github仓库
+
+``` git
+git push //将本地仓库的修改提交到github
 ```
 
 #### 查看
@@ -113,7 +119,29 @@ git clone git@server-name:path/repo-name.git //将远程仓库下载到本地并
 4.上传到远程仓库
 
 ``` git
+git push //普通上传
 git push -u origin master //同时分支也进行了关联
+
+```
+
+#### 关联远程仓库
+
+``` git
+git remote add origin git@server-name:path/repo-name.git //关联远程仓库
+
+```
+
+#### 查看当前关联远程仓库
+
+``` git
+git remote -v //显示对应的克隆地址
+
+```
+
+#### 移除当前关联远程仓库
+
+``` git
+git remote rm origin //移除本地关联 rm->remove
 
 ```
 
@@ -131,7 +159,7 @@ git push -u origin master //同时分支也进行了关联
 git branch
 ```
 
-#### 切换分支
+#### 查看当前所在分支
 
 ``` git
 git checkout <name>
