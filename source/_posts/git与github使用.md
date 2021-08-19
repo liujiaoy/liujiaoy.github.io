@@ -159,7 +159,7 @@ git remote rm origin //移除本地关联 rm->remove
 git branch
 ```
 
-#### 查看当前所在分支
+#### 切换分支
 
 ``` git
 git checkout <name>
