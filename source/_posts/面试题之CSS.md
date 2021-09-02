@@ -1,29 +1,25 @@
 ---
-title: 前端面试题记录
-date: 2021-08-17 09:40:55
-top_img: topimg.png
-cover: topimg.png
-tags: 
-    - 知识点
+title: 面试题之CSS
+date: 2021-08-27 14:09:11
+top_img: top_img.png
+cover: top_img.png
+tags:
+    - CSS
 categories:
     - code
 ---
 
-## 发现刷面试题也是巩固知识的一个好方法，好记性不如烂笔头
+## 说明
 
-所有的代码例子还是要自己敲一遍，跑一边才能更理解。
-概念性的东西要多尝试讲给别人听，看自己能不能讲通。
-同时引申去思考一些东西，为什么问这些问题，在哪些场景能用上，自己可不可以去造一些例子......
+之前的那篇面试题有点长了，把css和js分出来吧
 
-## CSS部分
-
-### 垂直居中
+## 垂直居中
 
 高频问题
 基本所有前端开发者都会遇到，日常常见问题，算一个基础问题，然后还能引申到flex布局上，面试上也很好切换问题方向
 实现方式分几种
 
-#### 1. 基于定位
+### 1. 基于定位
 
 ``` html
 <!DOCTYPE html>
@@ -83,7 +79,7 @@ categories:
 </html>
 ```
 
-#### 2. 通过js
+### 2. 通过js
 
 ```javascript
 <!DOCTYPE html>
@@ -128,7 +124,7 @@ categories:
 </script>
 ```
 
-#### 3. flex布局
+### 3. flex布局
 
 ``` html
 <!DOCTYPE html>
@@ -161,11 +157,11 @@ categories:
 </html>
 ```
 
-### 清除浮动
+## 清除浮动
 
 float CSS属性指定一个元素应沿其容器的左侧或右侧放置，允许文本和内联元素环绕它。该元素从网页的正常流动(文档流)中移除，尽管仍然保持部分的流动性（与绝对定位相反）。
 
-#### 1. 触发BFC 即外层div增加属性overflow：hidden
+### 1. 触发BFC 即外层div增加属性overflow：hidden
 
 ```html
 <!DOCTYPE html>
@@ -196,7 +192,7 @@ float CSS属性指定一个元素应沿其容器的左侧或右侧放置，允�
 </html>
 ```
 
-#### 2. 额外增加标签并设置clear:both
+### 2. 额外增加标签并设置clear:both
 
 ```html
 <!DOCTYPE html>
@@ -230,7 +226,7 @@ float CSS属性指定一个元素应沿其容器的左侧或右侧放置，允�
 </html>
 ```
 
-#### 3. 增加after伪元素
+### 3. 增加after伪元素
 
 ```html
 <!DOCTYPE html>
@@ -272,7 +268,7 @@ float CSS属性指定一个元素应沿其容器的左侧或右侧放置，允�
 </html>
 ```
 
-#### 4. 引申思考
+### 4. 引申思考
 
 1）既然会有高度塌陷问题，那为什么要用float，他干什么用的
 
@@ -280,7 +276,7 @@ float设计用来做文字环绕效果，这也是他出现高度塌陷的原因
 具体可以查看博客[CSS布局(四) float详解](https://www.cnblogs.com/duw76/p/10042999.html)
 
 
-### 关于BFC
+## 关于BFC
 
 这个问题可以穿插到清除浮动时问。
 对于BFC，感觉是知其然而不知其所以然，只了解基本概念，比如全称是Block Formatting Context（块格式化上下文），可以清除浮动。
@@ -340,15 +336,15 @@ BFC的触发条件
 但是我通过设置boxa为inline-block来触发BFC，margin又不重叠了...........这下我真的迷惑了，继续找结果，最后在知乎找到了
 直接放图片了 ![关于margin重叠](3-margin-collapse.png)
 
-### 介绍一下标准的css的盒子模型？低版本IE的盒子模型有什么不同
+## 介绍一下标准的css的盒子模型？低版本IE的盒子模型有什么不同
 
 标准盒模型 content 的宽高为元素的width ，height，一个块的总宽 =  width + padding +border +margin;
 IE盒模型 content + padding + border 才是元素的width，height，一个块的总宽 =  width + margin;
 通常开发中，用的多的是IE盒模型
 
-### css3新特性
+## css3新特性
 
-#### 1. 动画 animation
+### 1. 动画 animation
 
   animation是个缩写属性，包含以下六个属性 默认none 0 ease 0 1 normal
   animation-name: keyframe 名称
@@ -448,7 +444,7 @@ IE盒模型 content + padding + border 才是元素的width，height，一个块
 </html>
 ```
 
-#### 2. 过渡 transition
+### 2. 过渡 transition
 
   transition: css属性，花费时间，曲线效果，延迟时间(默认0)
   引用W3C的例子，鼠标放上去出效果
@@ -488,7 +484,7 @@ IE盒模型 content + padding + border 才是元素的width，height，一个块
 </html>
   ```
 
-#### 3. 形状转换
+### 3. 形状转换
 
 translate前面的垂直居中用到过
 rotate 旋转
@@ -587,219 +583,6 @@ rotate 旋转
     }
 ```
 
-#### 搜罗了一下有点多，移步博客（？）
 
-### 待续...
+## 待续...
 
-## JS部分
-
-### js数据类型
-
-6大数据类型
-五种基本数据类型 Number,Null,Undefined,Boolean,String
-一种复杂数据类型 Object
-es6 新加入 symbol
-
-谈到ES6，就想到下面的问题了
-
-### ES6新特性
-
-[阮一峰的博客](https://es6.ruanyifeng.com/)
-  
-#### const和let
-  const:只读常量
-    const 对象之能使对象的地址不变，对象里面的值控制不了
-  let:局部变量
-    1）只在当前代码块有效
-    2）不会出现变量提升
-    3）存在暂时性死区
-    4）不允许重复声明
-
-#### 变量的解构赋值
-
-  形如 let [a,b] = [1,2]
-  解构赋值允许指定默认值
-  let[x,y='2'] = [1]
-
-  let a =10,b=20;
-  [a,b] = [b,a]
-
-#### 模板字面量
-#### for...of
-#### 展开运算符
-#### 剩余参数(可变参数)
-#### ES6箭头函数
-#### 默认参数函数
-#### 默认值与解构
-#### Javascript类
-#### super 和 extends
-
-### null与undefined
-
-null 为 对象压根不存在,undefined 更像是存在但无值
-
-### 判断数据类型的方法
-
-一.typeof，
-优点：能够快速区分基本数据类型 缺点：不能将Object、Array和Null区分，都返回object
-注意！ typeof(null)//object 但typeof 可以检测function
-
-二.instanceof
-可进一步区分object为对象还是数组还是函数
-优点：能够区分Array、Object和Function，适合用于判断自定义的类实例对象 缺点：Number，Boolean，String基本数据类型不能判断
-
-三、Object.prototype.toString.call()
-
-```js
-var toString = Object.prototype.toString;
- 
-console.log(toString.call(1));                      //[object Number]
-console.log(toString.call(true));                   //[object Boolean]
-console.log(toString.call('abc'));                  //[object String]
-console.log(toString.call([]));                     //[object Array]
-console.log(toString.call({}));                     //[object Object]
-console.log(toString.call(function(){}));           //[object Function]
-console.log(toString.call(undefined));              //[object Undefined]
-console.log(toString.call(null));                   //[object Null]
-```
-
-优点：精准判断数据类型 缺点：写法繁琐不容易记，推荐进行封装后使用 
-
-### 原生ajax
-
-其实很简单
-1.创建xhr(xmlhttprequest)对象
-2.请求参数，url ，类型，参数等
-3.发送请求
-4.监听回调xhr.onreadystatechange,说明请求完成
-
-```js
-//步骤一:创建异步对象
-var ajax = new XMLHttpRequest();
-//步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
-ajax.open('get','getStar.php?starName='+name);
-//步骤三:发送请求
-ajax.send();
-//步骤四:注册事件 onreadystatechange 状态改变就会调用
-ajax.onreadystatechange = function () {   if (ajax.readyState==4 &&ajax.status==200) {
-    //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的　　　　console.log(ajax.responseText);//输入相应的内容  　　}
-}
-```
-
-
-### 对象深浅拷贝
-
-#### 浅拷贝
-
-一.object.assign(target,souce)//Object.assign({},{a:1,b:2})
-
-二.手动实现
-自己实现也很简单，就一个for循环进行赋值
-
-```javascript
-function simpleClone(obj) {
-    var result = {};
-    for (var i in obj) {
-        result[i] = obj[i];
-    }
-    return result;
-}
-```
-
-#### 深拷贝
-
-一.json.parse(json.stringfy(obj))
-二.手动实现
-也没想象中难，就用递归把所有属性都复制下来,但是其中有比较多的细节可以注意
-
-```javascript
-function deepClone(obj) {
-    var result = {};
-    for (var i in obj) {
-        if(typeof obj[i] === "object"){
-             result[i] = deepClone(obj[i])
-        }else{
-            result[i] = obj[i];
-        }
-        
-    }
-    return result;
-}
-
-function deepCopyTwo(obj) {
-    let objClone = Array.isArray(obj) ? [] : {};
-    if (obj && typeof obj == 'object') {
-        for (const key in obj) {
-            //判断obj子元素是否为对象，如果是，递归复制
-            if (obj[key] && typeof obj[key] === "object") {
-                objClone[key] = deepCopyTwo(obj[key]);
-            } else {
-                //如果不是，简单复制
-                objClone[key] = obj[key];
-            }
-        }
-    }
-    return objClone;
-}
-
-```
-
-### this指向问题
-
-### 数组去重的几种方式
-
-### 数组扁平化
-
-### 类数组转化为数组
-
-### 防抖节流
-
-### 闭包
-
-### 跨域问题
-
-我觉得这个问题挺大的，另开一篇文来写吧
-
-### 原型链相关
-
-### 继承
-
-### ajax相关
-
-### 事件委托
-
-### 输入url之后，到底发生了什么？
-
-这个问题，很眼熟吧，但是记不住，亏我之前还是网络专业的
-
-1.DNS解析
-2.建立TCP连接 
-  三次握手 
-  ![tcp.jpg](三次握手)
-  第一次握手：客户端尝试连接服务器，向服务器发送 syn 包（同步序列编号Synchronize Sequence Numbers），syn=j，客户端进入 SYN_SEND 状态等待服务器确认
-  第二次握手：服务器接收客户端syn包并确认（ack=j+1），同时向客户端发送一个 SYN包（syn=k），即 SYN+ACK 包，此时服务器进入 SYN_RECV 状态
-  第三次握手：第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1），此包发送完毕，客户端和服务器进入ESTABLISHED状态，完成三次握手
-3.发送http请求
-4.接收响应结果
-5.解析html
-6.渲染
-
- ![输入url之后，到底发生了什么](url.png)
-
-### http与https
-
-二者区别：https安全性较高
-
-> HTTP 与 HTTPS 区别
-  HTTP 明文传输，数据都是未加密的，安全性较差，HTTPS（SSL+HTTP） 数据传输过程是加密的，安全性较好。
-  使用 HTTPS 协议需要到 CA（Certificate Authority，数字证书认证机构） 申请证书，一般免费证书较少，因而需要一定费用。证书颁发机构如：Symantec、Comodo、GoDaddy 和 GlobalSign 等。
-  HTTP 页面响应速度比 HTTPS 快，主要是因为 HTTP 使用 TCP 三次握手建立连接，客户端和服务器需要交换 3 个包，而 HTTPS除了 TCP 的三个包，还要加上 ssl 握手需要的 9 个包，所以一共是 12 个包。
-  http 和 https 使用的是完全不同的连接方式，用的端口也不一样，前者是 80，后者是 443。
-  HTTPS 其实就是建构在 SSL/TLS 之上的 HTTP 协议，所以，要比较 HTTPS 比 HTTP 要更耗费服务器资源。
-  https = http + ssl
-  https对传输数据进行加密处理
-  
-HTTPS 的工作原理
- ![HTTPS 的工作原理](https-intro.png)
-
-### 重排与重绘
