@@ -217,7 +217,7 @@ Person.say(fn);
 
 ## 类数组转化为数组
 
-Array.prototype.call()
+Array.prototype.slice.call()
 
 ## 防抖节流
 
