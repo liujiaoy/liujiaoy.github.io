@@ -27,7 +27,6 @@ categories:
 五种基本数据类型 Number,Null,Undefined,Boolean,String
 一种复杂数据类型 Object
 es6 新加入 symbol
-谈到ES6，就想到下面的问题了
 
 ## null与undefined
 
@@ -65,7 +64,10 @@ console.log(toString.call(null));                   //[object Null]
 
 - 优点：精准判断数据类型 
 - 缺点：写法繁琐不容易记，推荐进行封装后使用 
-
+<b>为什么可以这么干？</b>
+Number Boolean String这些类型原型也指向Object,可以调用它上面的toString
+<b>那为什么要用prototype再call一下呢？</b>
+因为其实Number String之类的已经重写过了toString方法
 
 ## 原生ajax
 
@@ -73,7 +75,7 @@ console.log(toString.call(null));                   //[object Null]
 1.创建xhr(xmlhttprequest)对象
 2.请求参数，url ，类型，参数等
 3.发送请求
-4.监听回调xhr.onreadystatechange,说明请求完成
+4.监听回调xhr.onreadystate change,说明请求完成
 
 ```js
 //步骤一:创建异步对象
@@ -87,7 +89,6 @@ ajax.onreadystatechange = function () {   if (ajax.readyState==4 &&ajax.status==
     //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的　　　　console.log(ajax.responseText);//输入相应的内容  　　}
 }
 ```
-
 
 ## 对象深浅拷贝
 
@@ -111,6 +112,10 @@ function simpleClone(obj) {
 ### 深拷贝
 
 一.json.parse(json.stringfy(obj))
+缺点：
+（1）如果对象里有函数,函数无法被拷贝下来
+（2）无法拷贝Obj对象原型链上的属性和方法
+（3）当数据的层次很深，会栈溢出
 二.手动实现
 也没想象中难，就用递归把所有属性都复制下来,但是其中有比较多的细节可以注意
 
@@ -151,7 +156,7 @@ function deepCopyTwo(obj) {
 <!-- - this指的是函数运行时所在的环境 -->
 - this指向-记住一句话：谁调用，指向谁
 
-下来来做几道题
+下面来做几道题理解
 第一道
 
 ``` js
