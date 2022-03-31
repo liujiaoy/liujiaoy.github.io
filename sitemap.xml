@@ -4,7 +4,7 @@
   <url>
     <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BJS/</loc>
     
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     
   </url>
   
@@ -12,13 +12,6 @@
     <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BCSS/</loc>
     
     <lastmod>2022-03-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/2022/03/16/%E5%89%8D%E7%AB%AF%E5%85%AB%E8%82%A1%E6%96%87/</loc>
-    
-    <lastmod>2022-03-18</lastmod>
     
   </url>
   
@@ -51,14 +44,14 @@
   </url>
   
   <url>
-    <loc>http://blog.better2020.top/link/index.html</loc>
+    <loc>http://blog.better2020.top/tags/index.html</loc>
     
     <lastmod>2022-03-16</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.better2020.top/tags/index.html</loc>
+    <loc>http://blog.better2020.top/link/index.html</loc>
     
     <lastmod>2022-03-16</lastmod>
     
@@ -198,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://blog.better2020.top/2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blog.better2020.top/2021/08/26/hexo-%E5%8D%9A%E5%AE%A2%E7%99%BE%E5%BA%A6%E6%94%B6%E7%AF%87%E5%BD%95/</loc>
     
     <lastmod>2022-03-16</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.better2020.top/2021/08/26/hexo-%E5%8D%9A%E5%AE%A2%E7%99%BE%E5%BA%A6%E6%94%B6%E7%AF%87%E5%BD%95/</loc>
+    <loc>http://blog.better2020.top/2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2022-03-16</lastmod>
     
@@ -221,7 +214,7 @@
 
   <url>
     <loc>http://blog.better2020.top/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -229,112 +222,112 @@
   
   <url>
     <loc>http://blog.better2020.top/tags/HTML/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/VSCode/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/MarkDown/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/CSS/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/tags/Git/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/hexo/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.better2020.top/tags/Git/</loc>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/Hexo/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/http%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/vue/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/element/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/tags/%E9%9D%A2%E8%AF%95/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.better2020.top/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/tags/JS/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -343,14 +336,14 @@
   
   <url>
     <loc>http://blog.better2020.top/categories/code/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://blog.better2020.top/categories/DailyRecord/</loc>
-    <lastmod>2022-03-30</lastmod>
+    <lastmod>2022-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
