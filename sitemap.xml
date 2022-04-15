@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BCSS/</loc>
+    
+    <lastmod>2022-04-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BJS/</loc>
     
     <lastmod>2022-04-15</lastmod>
@@ -26,20 +33,6 @@
     <loc>http://blog.better2020.top/2022/04/08/vue%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E6%A1%86%E5%B9%B6%E8%87%AA%E5%8A%A8%E8%81%9A%E7%84%A6/</loc>
     
     <lastmod>2022-04-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BCSS/</loc>
-    
-    <lastmod>2022-03-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/2021/09/03/%E9%9D%A2%E8%AF%95%E6%97%A5%E8%AE%B0/</loc>
-    
-    <lastmod>2022-03-18</lastmod>
     
   </url>
   
@@ -327,13 +320,6 @@
   
   <url>
     <loc>http://blog.better2020.top/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-04-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.better2020.top/tags/%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2022-04-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
