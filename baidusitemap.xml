@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BJS/</loc>
-    <lastmod>2022-04-08</lastmod>
+    <lastmod>2022-04-15</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.better2020.top/2021/08/25/resume/</loc>
+    <lastmod>2022-04-14</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.better2020.top/2022/03/01/http%E9%82%A3%E7%82%B9%E4%BA%8B/</loc>
+    <lastmod>2022-04-13</lastmod>
   </url>
   <url>
     <loc>http://blog.better2020.top/2022/04/08/vue%E6%98%BE%E7%A4%BA%E8%BE%93%E5%85%A5%E6%A1%86%E5%B9%B6%E8%87%AA%E5%8A%A8%E8%81%9A%E7%84%A6/</loc>
-    <lastmod>2022-04-08</lastmod>
+    <lastmod>2022-04-11</lastmod>
   </url>
   <url>
     <loc>http://blog.better2020.top/2021/08/27/%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B9%8BCSS/</loc>
@@ -14,10 +22,6 @@
   </url>
   <url>
     <loc>http://blog.better2020.top/2021/09/03/%E9%9D%A2%E8%AF%95%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2022-03-18</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.better2020.top/2022/03/01/http%E9%82%A3%E7%82%B9%E4%BA%8B/</loc>
     <lastmod>2022-03-18</lastmod>
   </url>
   <url>
@@ -29,19 +33,19 @@
     <lastmod>2022-03-18</lastmod>
   </url>
   <url>
-    <loc>http://blog.better2020.top/2021/06/09/%E6%97%A5%E5%B8%B81/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
     <loc>http://blog.better2020.top/2021/08/23/%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
-    <loc>http://blog.better2020.top/2020/11/20/%E5%9B%BA%E5%AE%9A%E8%A1%A8%E5%A4%B4%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://blog.better2020.top/2021/06/09/%E6%97%A5%E5%B8%B81/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
     <loc>http://blog.better2020.top/2021/05/19/%E5%9F%9F%E5%90%8D%E5%85%B3%E8%81%94githubpage/</loc>
+    <lastmod>2022-03-16</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.better2020.top/2020/11/20/%E5%9B%BA%E5%AE%9A%E8%A1%A8%E5%A4%B4%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
@@ -81,10 +85,6 @@
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
-    <loc>http://blog.better2020.top/2021/08/25/resume/</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
     <loc>http://blog.better2020.top/2020/11/03/hexo%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
@@ -93,11 +93,11 @@
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
-    <loc>http://blog.better2020.top/2021/08/26/hexo-%E5%8D%9A%E5%AE%A2%E7%99%BE%E5%BA%A6%E6%94%B6%E7%AF%87%E5%BD%95/</loc>
+    <loc>http://blog.better2020.top/2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
-    <loc>http://blog.better2020.top/2020/10/28/git%E4%B8%8Egithub%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://blog.better2020.top/2021/08/26/hexo-%E5%8D%9A%E5%AE%A2%E7%99%BE%E5%BA%A6%E6%94%B6%E7%AF%87%E5%BD%95/</loc>
     <lastmod>2022-03-16</lastmod>
   </url>
   <url>
